@@ -3,6 +3,7 @@ const sqlite3 = require('sqlite3');
 const app = express();
 const db = new sqlite3.Database('./taskDB.db');
 const port = 3014
+const a = 1
 
 app.use(express.static('front'))
 app.use(express.json());
